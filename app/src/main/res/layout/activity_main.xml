@@ -30,4 +30,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
+    <Button
+        android:id="@+id/clickyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Clicky"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnDoMagic"
+        app:layout_constraintStart_toEndOf="@+id/btnDoMagic" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
