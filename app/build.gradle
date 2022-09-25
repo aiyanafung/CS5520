@@ -5,8 +5,11 @@ plugins {
 
 android {
     signingConfigs {
-        debug {
-            storeFile file('C:\\Users\\Junjie\\AndroidStudioProjects\\First_App\\app\\release\\YFweek1.apk')
+        release {
+            storeFile file('C:\\Users\\Junjie\\AndroidStudioProjects\\First_App\\sign_version\\keys.jks')
+            keyAlias 'neu5520'
+            storePassword '123456'
+            keyPassword '123456'
         }
     }
     compileSdk 32
@@ -19,6 +22,7 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.release
     }
 
     buildTypes {
