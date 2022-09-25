@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">NUMAD22Fa_YazheFeng</string>
+
+    <string name="text_view">Press: -</string>
+    <string name="button1">Press: A</string>
+    <string name="button2">Press: B</string>
+    <string name="button3">Press: C</string>
+    <string name="button4">Press: D</string>
+    <string name="button5">Press: E</string>
+    <string name="button6">Press: F</string>
 </resources>
