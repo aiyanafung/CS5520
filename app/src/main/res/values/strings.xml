@@ -16,4 +16,7 @@
     <string name="link_name_hint">Enter Name</string>
     <string name="link_url_hint">Enter URL</string>
 
+    <string name="myName">Yazhe Feng</string>
+    <string name="email">feng.yaz@northeastern.edu</string>
+
 </resources>
