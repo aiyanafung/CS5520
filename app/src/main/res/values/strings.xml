@@ -8,4 +8,12 @@
     <string name="button4">Press: D</string>
     <string name="button5">Press: E</string>
     <string name="button6">Press: F</string>
+    <string name="addLink">addLink</string>
+
+    <string name="link_name">Name</string>
+    <string name="link_url">URL</string>
+    <string name="add_link_description">Add a new link to list</string>
+    <string name="link_name_hint">Enter Name</string>
+    <string name="link_url_hint">Enter URL</string>
+
 </resources>

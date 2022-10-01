@@ -13,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MyApp";
     private Button clicky;
+    private Button linkCollector;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button btn = (Button) findViewById(R.id.btnDoMagic);
         clicky = (Button) findViewById(R.id.clickyButton);
+        linkCollector = (Button) findViewById(R.id.linkCollector);
 
         //Roast the button
         btn.setOnClickListener(new View.OnClickListener() {
@@ -31,17 +33,29 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //new activity
+        //new activity2
         clicky.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 openActivity2();
             }
         });
+
+        linkCollector.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openActivity3();
+            }
+        });
     }
 
     public void openActivity2() {
         Intent intent = new Intent(this, Activity2.class);
+        startActivity(intent);
+    }
+
+    public void openActivity3() {
+        Intent intent = new Intent(this, Activity3.class);
         startActivity(intent);
     }
 
