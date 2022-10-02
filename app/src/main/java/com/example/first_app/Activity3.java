@@ -43,6 +43,7 @@ public class Activity3 extends AppCompatActivity {
                 String linkUrl = linkUrEditText.getText().toString();
                 URL newUrl = new URL(linkName, linkUrl);
                 linksList.add(newUrl);
+                urlAdapter.notifyItemInserted(linksList.size() - 1);
 
                 Snackbar snackbar = Snackbar.make(findViewById(R.id.activity3),"Successfully created!",Snackbar.LENGTH_LONG);
                 snackbar.show();
