@@ -25,7 +25,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="41dp"
         android:layout_marginTop="15dp"
-        android:text="About Me"
+        android:text="@string/button_about_me"
         android:textColorLink="#03A9F4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
@@ -34,8 +34,8 @@
         android:id="@+id/clickyButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:text="Clicky"
+        android:layout_marginStart="20dp"
+        android:text="@string/button_clicky"
         app:layout_constraintBaseline_toBaselineOf="@+id/btnDoMagic"
         app:layout_constraintStart_toEndOf="@+id/btnDoMagic" />
 
@@ -43,14 +43,20 @@
         android:id="@+id/linkCollector"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="188dp"
-        android:layout_marginEnd="176dp"
-        android:text="Link Collector"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/button_link_collector"
+        android:layout_marginTop="20dp"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/btnDoMagic"
+        app:layout_constraintTop_toBottomOf="@+id/btnDoMagic" />
+
+    <Button
+        android:id="@+id/primeFinder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/button_prime_finder"
+        app:layout_constraintTop_toBottomOf="@+id/linkCollector"
+        app:layout_constraintStart_toStartOf="@+id/linkCollector"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

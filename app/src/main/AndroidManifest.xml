@@ -17,11 +17,15 @@
             android:name=".Activity1"
             android:exported="false" />
         <activity
+            android:name=".Activity2"
+            android:exported="false" />
+        <activity
             android:name=".Activity3"
             android:configChanges="orientation|screenSize"
             android:exported="false" />
         <activity
-            android:name=".Activity2"
+            android:name=".Activity4"
+            android:configChanges="orientation|screenSize"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

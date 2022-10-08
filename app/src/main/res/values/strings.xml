@@ -1,13 +1,28 @@
 <resources>
-    <string name="app_name">NUMAD22Fa_YazheFeng</string>
+    // buttons
+    <string name="button_about_me">About Me</string>
+    <string name="button_clicky">Clicky</string>
+    <string name="button_link_collector">Link Collector</string>
+    <string name="button_prime_finder">Prime Finder</string>
+    <string name="button_search_prime">Find Primes</string>
+    <string name="button_terminate_search_prime">Terminate Search</string>
 
-    <string name="text_view">Press: -</string>
+    //check box
+    <string name="check_box_pacifier_switch">Pacifier Switch</string>
+
+
     <string name="button1">Press: A</string>
     <string name="button2">Press: B</string>
     <string name="button3">Press: C</string>
     <string name="button4">Press: D</string>
     <string name="button5">Press: E</string>
     <string name="button6">Press: F</string>
+
+    // App
+    <string name="app_name">NUMAD22Fa_YazheFeng</string>
+
+
+    <string name="text_view">Press: -</string>
     <string name="addLink">addLink</string>
 
     <string name="link_name">Name</string>
@@ -18,5 +33,9 @@
 
     <string name="myName">Yazhe Feng</string>
     <string name="email">feng.yaz@northeastern.edu</string>
+
+    // activity 4
+    <string name="current_search_number">Currently Searching:</string>
+    <string name="found_prime">Latest Prime Found:</string>
 
 </resources>
