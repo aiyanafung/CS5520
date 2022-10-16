@@ -58,5 +58,14 @@
         app:layout_constraintTop_toBottomOf="@+id/linkCollector"
         app:layout_constraintStart_toStartOf="@+id/linkCollector"/>
 
+    <Button
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/button_location"
+        app:layout_constraintTop_toBottomOf="@+id/primeFinder"
+        app:layout_constraintStart_toStartOf="@+id/primeFinder"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

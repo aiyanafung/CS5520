@@ -1,41 +1,45 @@
 <resources>
-    // buttons
+    // main activity
+    <string name="app_name">NUMAD22Fa_YazheFeng</string>
     <string name="button_about_me">About Me</string>
     <string name="button_clicky">Clicky</string>
     <string name="button_link_collector">Link Collector</string>
     <string name="button_prime_finder">Prime Finder</string>
-    <string name="button_search_prime">Find Primes</string>
-    <string name="button_terminate_search_prime">Terminate Search</string>
+    <string name="button_location">Location</string>
 
-    //check box
-    <string name="check_box_pacifier_switch">Pacifier Switch</string>
+    // activity 1
+    <string name="myName">Yazhe Feng</string>
+    <string name="email">feng.yaz@northeastern.edu</string>
 
-
+    // activity 2
     <string name="button1">Press: A</string>
     <string name="button2">Press: B</string>
     <string name="button3">Press: C</string>
     <string name="button4">Press: D</string>
     <string name="button5">Press: E</string>
     <string name="button6">Press: F</string>
-
-    // App
-    <string name="app_name">NUMAD22Fa_YazheFeng</string>
-
-
     <string name="text_view">Press: -</string>
-    <string name="addLink">addLink</string>
 
+    // activity 3
+    <string name="addLink">addLink</string>
     <string name="link_name">Name</string>
     <string name="link_url">URL</string>
     <string name="add_link_description">Add a new link to list</string>
     <string name="link_name_hint">Enter Name</string>
     <string name="link_url_hint">Enter URL</string>
 
-    <string name="myName">Yazhe Feng</string>
-    <string name="email">feng.yaz@northeastern.edu</string>
-
     // activity 4
     <string name="current_search_number">Currently Searching:</string>
     <string name="found_prime">Latest Prime Found:</string>
+    <string name="button_search_prime">Find Primes</string>
+    <string name="button_terminate_search_prime">Terminate Search</string>
+    <string name="check_box_pacifier_switch">Pacifier Switch</string>
+
+    // activity 5
+    <string name="text_current_location">Currently Location:</string>
+    <string name="text_current_location_lat">Lat:</string>
+    <string name="text_current_location_long">Long:</string>
+    <string name="text_distance_traveled">Distance Traveled:</string>
+    <string name="button_reset">Reset</string>
 
 </resources>

@@ -14,8 +14,9 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MyApp";
     private Button clicky;
     private Button linkCollector;
-    private  Button btn;
-    private  Button primeFinder;
+    private Button btn;
+    private Button primeFinder;
+    private Button location;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         clicky = (Button) findViewById(R.id.clickyButton);
         linkCollector = (Button) findViewById(R.id.linkCollector);
         primeFinder = (Button) findViewById(R.id.primeFinder);
+        location = (Button) findViewById(R.id.location);
 
         //Roast the button
         btn.setOnClickListener(new View.OnClickListener() {
@@ -56,6 +58,13 @@ public class MainActivity extends AppCompatActivity {
                 openActivity4();
             }
         });
+
+        location.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openActivity5();
+            }
+        });
     }
 
     public void openActivity1() {
@@ -75,6 +84,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void openActivity4() {
         Intent intent = new Intent(this, Activity4.class);
+        startActivity(intent);
+    }
+
+    public void openActivity5() {
+        Intent intent = new Intent(this, Activity5.class);
         startActivity(intent);
     }
 

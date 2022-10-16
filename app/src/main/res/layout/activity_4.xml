@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/activity3">
+    android:id="@+id/activity4">
 
     <LinearLayout
         android:id="@+id/activity4_display_layout"
